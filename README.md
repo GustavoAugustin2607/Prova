@@ -27,6 +27,15 @@ Se a carta for solta longe de um slot, ela volta para a posição original.
 
 ## Como executar
 
+### Pelo executável (Windows, sem precisar de Python)
+
+Baixe e abra o arquivo [`executavel/JogoUNO.exe`](executavel/JogoUNO.exe).
+Na primeira vez ele pode demorar alguns segundos para abrir.
+O Windows pode mostrar o aviso "O Windows protegeu o computador", porque o arquivo não é assinado.
+Nesse caso, clique em **Mais informações** e depois em **Executar assim mesmo**.
+
+### Pelo código
+
 ```bash
 pip install flet
 py main.py
